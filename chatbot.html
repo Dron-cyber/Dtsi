@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot</title>
+    <style>
+        body{
+            background-color: #343a40;
+        }
+        .chat{
+            display: flex;
+            justify-content: center;
+            margin-top: 10vh;
+            padding: 0;
+            height: 80vh;
+            margin-bottom: 10vh;
+
+        }
+        .chatbot{
+            border-radius: 20px;
+
+        }
+        nav {
+            margin-top: 3px;
+            background-color: #343a40;
+            border: 2px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hover1:hover{
+            text-decoration: underline;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="dtsipage1.html" class="hover1">Home</a>
+        <a href="dtsi3.html" class="hover1">Book Tickets</a>
+        <a href="dtsi4.html" class="hover1">Chatbot</a>
+         <!-- <a href="" class="hover1">FAQ</a>
+        <a href="" class="hover1">Contact Us</a>  -->
+        </nav>
+    <div class="chat">
+        <iframe
+            src="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/18/13/20241218133131-61GQQKJA.json"
+            frameborder="0" class="chatbot"></iframe>
+    </div>
+    
+</div>
+</body>
+</html>
